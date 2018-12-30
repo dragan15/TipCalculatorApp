@@ -35,7 +35,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge that I had encountered while developing this application was that I had trouble formatting the user interface, to fit all screens precisely. Since each iphone has a different screen size, I needed to choose a singular iphone measurement to design the layout of my user interface, so I chose the iphone 8. 
+Another challenge that I had encountered while developing this application was that I did not receive the correct tip and total values, after I had created my own buttons for my application. I really liked the idea of creating numerical buttons that matched the design of the application,rather than using the pre-existing keyboard that was already provided by apple. As a result of developing the functionality of my own buttons that each represented a numerical value, my tip and total output did not display the expected outcome. If I entered the value "$100.00" into my text field, with a %20 tip value, for example, I would receive a "tip" value of "2.00" and a total value of "$12.00". As a result, I reused pre-existing code that was implemented in the "CalculateTip" function, to the "numbers" function. I was able to receive the expected output.
+
 
 ## License
 
